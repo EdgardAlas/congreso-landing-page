@@ -11,18 +11,6 @@
   object-fit: contain;
 }
 
-.comillas {
-  quotes: '“' '”' '‘' '’';
-}
-
-.comillas::before {
-  content: open-quote;
-}
-
-.comillas::after {
-  content: close-quote;
-}
-
 .text-justify {
   text-align: justify;
 }
