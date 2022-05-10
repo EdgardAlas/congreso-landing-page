@@ -1,0 +1,24 @@
+.section-logos {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.section-logos__logo {
+  width: 140px;
+  object-fit: contain;
+}
+
+.comillas {
+  quotes: '“' '”' '‘' '’';
+}
+
+.comillas::before {
+  content: open-quote;
+}
+
+.comillas::after {
+  content: close-quote;
+}
