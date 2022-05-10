@@ -22,3 +22,7 @@
 .comillas::after {
   content: close-quote;
 }
+
+.text-justify {
+  text-align: justify;
+}
