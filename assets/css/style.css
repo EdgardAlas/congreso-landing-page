@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #444444;
 }
 
 a {
-  color: #2487ce;
+  color: #b22222;
   text-decoration: none;
 }
 
@@ -23,8 +23,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -37,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #b22222;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #831919;
   color: #fff;
 }
 .back-to-top.active {
@@ -72,11 +77,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #b22222;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -132,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 300;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #header .logo a {
   color: #16507b;
@@ -165,7 +170,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -175,24 +181,30 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #2487ce;
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #b22222;
 }
-.navbar .getstarted, .navbar .getstarted:focus {
-  background: #2487ce;
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  background: #b22222;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
   color: #fff;
 }
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
   color: #fff;
-  background: #3194db;
+  background: #831919;
 }
 .navbar .dropdown ul {
   display: block;
@@ -219,8 +231,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #2487ce;
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
+  color: #b22222;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -299,15 +313,19 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #124265;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #2487ce;
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+  color: #b22222;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -330,8 +348,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #2487ce;
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
+  color: #b22222;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -344,12 +364,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url('../img/hero-bg.jpg') top center;
   background-size: cover;
   position: relative;
 }
 #hero:before {
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
@@ -366,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 72px;
   color: #124265;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #hero h2 {
   color: #5e5e5e;
@@ -374,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
 }
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -384,10 +404,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #b22222;
 }
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #831919;
 }
 #hero .icon-boxes {
   margin-top: 100px;
@@ -423,13 +443,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #b22222;
 }
 #hero .icon-box:hover {
   transform: scale(1.08);
 }
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #b22222;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -508,14 +528,14 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #2487ce;
+  color: #b22222;
   line-height: 1;
 }
 .about .content p:last-child {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -524,14 +544,14 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #2487ce;
+  color: #b22222;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #2487ce;
+  border: 2px solid #b22222;
 }
 .about .content .btn-learn-more:hover {
-  background: #2487ce;
+  background: #b22222;
   color: #fff;
   text-decoration: none;
 }
@@ -557,7 +577,7 @@ section {
 }
 .counts .count-box p {
   padding: 8px 0 0 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: #1e6ca6;
@@ -585,7 +605,7 @@ section {
 }
 .about-video .content ul i {
   font-size: 24px;
-  color: #2487ce;
+  color: #b22222;
   position: absolute;
   left: 0;
   top: -2px;
@@ -596,7 +616,7 @@ section {
 .about-video .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#2487ce 50%, rgba(36, 135, 206, 0.4) 52%);
+  background: radial-gradient(#b22222 50%, rgba(36, 135, 206, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -605,7 +625,7 @@ section {
   overflow: hidden;
 }
 .about-video .play-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -619,7 +639,7 @@ section {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .about-video .play-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 120px;
   height: 120px;
@@ -641,11 +661,11 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 .about-video .play-btn:hover::after {
-  border-left: 15px solid #2487ce;
+  border-left: 15px solid #b22222;
   transform: scale(20);
 }
 .about-video .play-btn:hover::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -710,7 +730,8 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
@@ -734,7 +755,8 @@ section {
   color: #999;
   margin: 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #c9e3f5;
   font-size: 26px;
 }
@@ -759,7 +781,7 @@ section {
   border-radius: 6px;
 }
 .testimonials .testimonial-item p::after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border-top: 20px solid #f3f9fd;
@@ -778,10 +800,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2487ce;
+  border: 1px solid #b22222;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2487ce;
+  background-color: #b22222;
 }
 
 /*--------------------------------------------------------------
@@ -895,7 +917,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2487ce;
+  background: #b22222;
   background-size: cover;
   padding: 60px 0;
 }
@@ -908,7 +930,7 @@ section {
   color: #fff;
 }
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -922,7 +944,7 @@ section {
 }
 .cta .cta-btn:hover {
   background: #fff;
-  color: #2487ce;
+  color: #b22222;
 }
 
 /*--------------------------------------------------------------
@@ -951,8 +973,9 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #2487ce;
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #b22222;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -964,7 +987,7 @@ section {
   z-index: 1;
 }
 .portfolio .portfolio-wrap::before {
-  content: "";
+  content: '';
   background: rgba(36, 135, 206, 0.6);
   position: absolute;
   left: 30px;
@@ -992,7 +1015,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
-  content: "";
+  content: '';
   width: 48px;
   height: 48px;
   position: absolute;
@@ -1005,7 +1028,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
-  content: "";
+  content: '';
   width: 48px;
   height: 48px;
   position: absolute;
@@ -1074,15 +1097,21 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2487ce;
+  border: 1px solid #b22222;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2487ce;
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: #b22222;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1151,7 +1180,7 @@ section {
   display: inline-block;
 }
 .team .member .social a:hover {
-  color: #2487ce;
+  color: #b22222;
 }
 .team .member .social i {
   font-size: 18px;
@@ -1205,9 +1234,9 @@ section {
 }
 .pricing .box h4 {
   font-size: 42px;
-  color: #2487ce;
+  color: #b22222;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1243,23 +1272,27 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: #2487ce;
+  color: #b22222;
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 2px solid #2487ce;
+  border: 2px solid #b22222;
 }
 .pricing .box .btn-buy:hover {
-  background: #2487ce;
+  background: #b22222;
   color: #fff;
 }
 .pricing .featured {
-  background: #2487ce;
+  background: #b22222;
 }
-.pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na {
+.pricing .featured h3,
+.pricing .featured h4,
+.pricing .featured h4 span,
+.pricing .featured ul,
+.pricing .featured ul .na {
   color: #fff;
 }
 .pricing .featured .btn-wrap {
@@ -1272,7 +1305,7 @@ section {
 }
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: #2487ce;
+  color: #b22222;
 }
 
 /*--------------------------------------------------------------
@@ -1297,7 +1330,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1312,7 +1345,8 @@ section {
   left: 20px;
   color: #87c1ea;
 }
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -1329,7 +1363,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #b22222;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1352,7 +1386,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #b22222;
   float: left;
   width: 44px;
   height: 44px;
@@ -1376,11 +1410,14 @@ section {
   font-size: 14px;
   color: #217bbc;
 }
-.contact .info .email, .contact .info .phone {
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #2487ce;
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #b22222;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1416,7 +1453,7 @@ section {
   padding: 15px;
 }
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1427,14 +1464,16 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #2487ce;
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #b22222;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1442,16 +1481,16 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
-  background: #2487ce;
+.contact .php-email-form button[type='submit'] {
+  background: #b22222;
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type=submit]:hover {
-  background: #3194db;
+.contact .php-email-form button[type='submit']:hover {
+  background: #831919;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1503,7 +1542,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #1a5e90;
-  content: "/";
+  content: '/';
 }
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
@@ -1544,7 +1583,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
@@ -1564,7 +1603,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #2487ce;
+  color: #b22222;
   font-size: 18px;
   line-height: 1;
 }
@@ -1584,7 +1623,7 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #2487ce;
+  color: #b22222;
 }
 #footer .footer-newsletter {
   font-size: 15px;
@@ -1605,12 +1644,12 @@ section {
   text-align: left;
   border: 1px solid #cde5f6;
 }
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type='email'] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type='submit'] {
   position: absolute;
   top: -1px;
   right: -2px;
@@ -1619,14 +1658,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #2487ce;
+  background: #b22222;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #3194db;
+#footer .footer-newsletter form input[type='submit']:hover {
+  background: #831919;
 }
 #footer .credits {
   padding-top: 5px;
@@ -1636,7 +1675,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #b22222;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1648,7 +1687,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #831919;
   color: #fff;
   text-decoration: none;
 }
